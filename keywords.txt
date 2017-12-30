@@ -13,9 +13,13 @@ SHT21	KEYWORD1
 #######################################
 
 begin	KEYWORD2
+update	KEYWORD2
 getHumidity  KEYWORD2
 getTemperature   KEYWORD2	
-
+setTempWait	KEYWORD2
+setHumdWait	KEYWORD2
+setHold	KEYWORD2
+setInterval	KEYWORD2
 #######################################
 # Constants (LITERAL1)
 #######################################
