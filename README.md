@@ -5,13 +5,13 @@ This library works with temperature and humidity sensor SHT21 (Sensirion) both t
 
 Added async sensor reading
 
-new functions: 
-  SHT21.update();           call once per loop if setHold(false)
-      async sensor reading
-  SHT21.setTempWait(int);   increase this value if "Wire not available for: 243"
-      delay between write and request for temp reading
-  SHT21.setHumdWait(int);   increase this value if "Wire not available for: 245"
-      delay between write and request for humd reading
-  SHT21.setHold(bool);      if set to true, use markbeee's version
-  SHT21.setInterval(int);   used to limit request frequency - minimum = tempWait + humdWait
-      (default: 200ms)
+__new functions:__<br />
+  _SHT21.update();_           call once per loop if setHold(false)<br />
+      - async sensor reading<br />
+  _SHT21.setTempWait(int);_   increase this value if "Wire not available for: 243"<br />
+      - delay between write and request for temp reading<br />
+  _SHT21.setHumdWait(int);_   increase this value if "Wire not available for: 245"<br />
+      - delay between write and request for humd reading<br />
+  _SHT21.setHold(bool);_      if set to true, use markbeee's version<br />
+  _SHT21.setInterval(int);_   used to limit request frequency - minimum = tempWait + humdWait<br />
+      - (default: 200ms)<br />
